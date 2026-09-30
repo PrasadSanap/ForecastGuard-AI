@@ -1,0 +1,21 @@
+# dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# env
+.env
+*.env.local
+
+# build
+dist/
+build/
+*.egg-info/
+
+# ML
+ml-service/models/*.joblib
+
+# logs / OS
+*.log
+.DS_Store
